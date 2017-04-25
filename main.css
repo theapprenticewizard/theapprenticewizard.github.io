@@ -1,0 +1,67 @@
+body {
+    margin: 50px;
+    font-family: sans-serif;
+}
+
+.blurb {
+    font-size: 2em;
+    color: darkslategrey;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.blurb > h2 {
+    line-height: 2;
+    position: relative;
+    text-align: center;
+    margin: 5%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background-color: royalblue;
+}
+
+small {
+    top: 8px;
+    position: absolute;
+    right: 20px;
+    color: whitesmoke;
+}
+
+.github {
+    color: lightblue;
+    text-decoration: none;
+}
+
+
+@media (max-height: 700px) {
+    h2 {
+        font-size: 1.1em;
+    }
+
+    .blurb > h2 {
+        margin-top: 0;
+        margin: 0 4% 4% 4%;
+        top: 0;
+    }
+}
+
+@media (max-width: 1100px) {
+    h2 {
+        font-size: 1.1em;
+    }
+
+    .blurb > h2 {
+        margin: 0 4% 4% 4%;
+        top: 0;
+    }
+}
